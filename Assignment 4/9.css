@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.save {
+  background-color: #28a745;
+}
+
+.cancel {
+  background-color: #dc3545;
+}
+
+.submit {
+  background-color: #007bff;
+}
+
+.save:hover {
+  background-color: #218838; 
+  transform: scale(1.05);
+}
+
+.cancel:hover {
+  background-color: #c82333; 
+  transform: scale(1.05);
+}
+
+.submit:hover {
+  background-color: #0069d9; 
+  transform: scale(1.05);
+}
+
+.btn:active {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+}
